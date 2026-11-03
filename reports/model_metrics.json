@@ -1,0 +1,57 @@
+{
+  "accuracy": 0.7033333333333334,
+  "precision": 0.29896907216494845,
+  "recall": 0.58,
+  "f1_score": 0.3945578231292517,
+  "roc_auc": 0.7130799999999999,
+  "confusion_matrix": [
+    [
+      182,
+      68
+    ],
+    [
+      21,
+      29
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.896551724137931,
+      "recall": 0.728,
+      "f1-score": 0.8035320088300221,
+      "support": 250.0
+    },
+    "1": {
+      "precision": 0.29896907216494845,
+      "recall": 0.58,
+      "f1-score": 0.3945578231292517,
+      "support": 50.0
+    },
+    "accuracy": 0.7033333333333334,
+    "macro avg": {
+      "precision": 0.5977603981514398,
+      "recall": 0.6539999999999999,
+      "f1-score": 0.5990449159796369,
+      "support": 300.0
+    },
+    "weighted avg": {
+      "precision": 0.7969546154757673,
+      "recall": 0.7033333333333334,
+      "f1-score": 0.7353696445465604,
+      "support": 300.0
+    }
+  },
+  "test_samples": 300,
+  "dataset_type": "Synthetic demonstration data",
+  "dataset_rows": 1500,
+  "positive_class": "Churned",
+  "random_forest_best_params": {
+    "classifier__max_depth": 8,
+    "classifier__n_estimators": 40
+  },
+  "random_forest_cv_roc_auc_mean": 0.6971965160587915,
+  "logistic_regression_cv_roc_auc_mean": 0.745599709671566,
+  "logistic_regression_cv_roc_auc_std": 0.03969872339961115,
+  "train_samples": 1200,
+  "note": "All held-out metrics are calculated from actual test-set predictions."
+}

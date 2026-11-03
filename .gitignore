@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+.env
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Generated artifacts (keep tracked demo artifacts in this project)
+# Uncomment these if you prefer to regenerate them locally:
+# models/*.joblib
+# reports/*.json
